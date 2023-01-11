@@ -1,12 +1,13 @@
 import "./styles.css";
 import { InlineStyle } from "./components/inlineStyle";
-import { CssModules } from "./components/CssModules";
-
+// import { CssModules } from "./components/CssModules";
+import { StyledJsx } from "./components/StyledJsx";
 export default function App() {
   return (
     <div className="App">
       <InlineStyle />
-      <CssModules />
+      {/* <CssModules /> */}
+      <StyledJsx />
     </div>
   );
 }
